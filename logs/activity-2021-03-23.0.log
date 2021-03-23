@@ -1,0 +1,326 @@
+2021-03-23_13:15:24  INFO  c.cococafe.CoffeeOrderingApplication - Starting CoffeeOrderingApplication using Java 11.0.9 on LAPTOP-M0KEA9MF with PID 2824 (D:\Neha\Cognizant\CDE\Projects\CoffeeOrdering\target\classes started by HP in D:\Neha\Cognizant\CDE\Projects\CoffeeOrdering)
+2021-03-23_13:15:24  INFO  c.cococafe.CoffeeOrderingApplication - No active profile set, falling back to default profiles: default
+2021-03-23_13:15:24  INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-23_13:15:24  INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-23_13:15:24  INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-23_13:15:24  INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 70 ms. Found 4 JPA repository interfaces.
+2021-03-23_13:15:24  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-03-23_13:15:24  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-23_13:15:24  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-03-23_13:15:24  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-23_13:15:24  INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-23_13:15:24  INFO  o.a.c.c.C.[.[.[/coffeeOrdering] - Initializing Spring embedded WebApplicationContext
+2021-03-23_13:15:24  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2611 ms
+2021-03-23_13:15:24  INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-03-23_13:15:24  INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-03-23_13:15:24  INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:coffee_db'
+2021-03-23_13:15:24  INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23_13:15:24  INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-03-23_13:15:24  INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-23_13:15:24  INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@717af952, org.springframework.security.web.context.SecurityContextPersistenceFilter@231a9981, org.springframework.security.web.header.HeaderWriterFilter@36f2ca1d, org.springframework.security.web.csrf.CsrfFilter@4b071bd7, org.springframework.security.web.authentication.logout.LogoutFilter@452bb59c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7205fc65, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2a00b708, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7d478caa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@40cd37f5, org.springframework.security.web.session.SessionManagementFilter@1f4603b8, org.springframework.security.web.access.ExceptionTranslationFilter@44956cca, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7af0e421]
+2021-03-23_13:15:24  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-23_13:15:24  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/coffeeOrdering'
+2021-03-23_13:15:24  INFO  c.cococafe.CoffeeOrderingApplication - Started CoffeeOrderingApplication in 6.791 seconds (JVM running for 7.605)
+2021-03-23_13:15:24  INFO  o.a.c.c.C.[.[.[/coffeeOrdering] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-23_13:15:24  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-03-23_13:15:24  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [Order created, status=PENDING]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - BeverageName:Cappuccino, BeverageSize:REGULAR, Topping:None, Sandwich:Pinenut Toast, OrderCost:230.0
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [Order created, status=PENDING]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - BeverageName:Latte, BeverageSize:SMALL, Topping:Chocolate, Sandwich:None, OrderCost:165.0
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [Order created, status=PENDING]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - BeverageName:Americano, BeverageSize:SMALL, Topping:None, Sandwich:None, OrderCost:80.0
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [Order created, status=PENDING]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - BeverageName:Mocha, BeverageSize:SMALL, Topping:Maple Syrup, Sandwich:Poached Egg Sandwich, OrderCost:275.0
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [Order created, status=PENDING]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - BeverageName:Frappe, BeverageSize:REGULAR, Topping:Whipped Cream, Sandwich:None, OrderCost:190.0
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [Fetched all pending orders]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [Order placed successfully, status=PLACED]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - BeverageName:Mocha, BeverageSize:SMALL, Topping:None, Sandwich:Poached Egg Sandwich, OrderCost:195.0
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [Fetched all pending orders]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [Fetched all placed orders]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [Fetched all pending orders]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [OrderId:1 placed successfully, status=PLACED]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - BeverageName:Cappuccino, BeverageSize:REGULAR, Topping:None, Sandwich:Pinenut Toast, OrderCost:230.0
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [Fetched all pending orders]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [OrderId:2 - Order Deleted Successfully]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [Fetched all pending orders]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [Fetched Order Detail : orderId 3]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - BeverageName: Americano
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - BeverageSize: SMALL
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - Topping: None
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - Sandwich: None
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [OrderId: 3 Updated Successfully]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - BeverageName:Frappe, BeverageSize:GRANDE, Topping:Chocolate, Sandwich:None, OrderCost:270.0
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [Fetched all pending orders]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [OrderId:3 placed successfully, status=PLACED]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - BeverageName:Frappe, BeverageSize:GRANDE, Topping:Chocolate, Sandwich:None, OrderCost:270.0
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [Fetched all pending orders]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [OrderId:4 - Order Deleted Successfully]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [Fetched all pending orders]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [OrderId:5 - Order Deleted Successfully]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [Fetched all pending orders]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:15:24  INFO  c.c.service.CoffeeOrderServiceImpl - [Fetched all placed orders]
+2021-03-23_13:58:30  INFO  c.cococafe.CoffeeOrderingApplication - Starting CoffeeOrderingApplication using Java 11.0.9 on LAPTOP-M0KEA9MF with PID 15844 (D:\Neha\Cognizant\CDE\Projects\CoffeeOrdering\target\classes started by HP in D:\Neha\Cognizant\CDE\Projects\CoffeeOrdering)
+2021-03-23_13:58:30  INFO  c.cococafe.CoffeeOrderingApplication - No active profile set, falling back to default profiles: default
+2021-03-23_13:58:30  INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-23_13:58:30  INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-23_13:58:30  INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-23_13:58:30  INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 80 ms. Found 4 JPA repository interfaces.
+2021-03-23_13:58:30  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-03-23_13:58:30  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-23_13:58:30  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-03-23_13:58:30  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-23_13:58:30  INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-23_13:58:30  INFO  o.a.c.c.C.[.[.[/coffeeOrdering] - Initializing Spring embedded WebApplicationContext
+2021-03-23_13:58:30  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2657 ms
+2021-03-23_13:58:30  INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-03-23_13:58:30  INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-03-23_13:58:30  INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:coffee_db'
+2021-03-23_13:58:30  INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23_13:58:30  INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-03-23_13:58:30  INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-23_13:58:30  INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@38924d0e, org.springframework.security.web.context.SecurityContextPersistenceFilter@55f01425, org.springframework.security.web.header.HeaderWriterFilter@7de7782e, org.springframework.security.web.csrf.CsrfFilter@1499ce3b, org.springframework.security.web.authentication.logout.LogoutFilter@698a656d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4fd9966e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@34541ff5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5df20a97, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3ae4836e, org.springframework.security.web.session.SessionManagementFilter@605c550d, org.springframework.security.web.access.ExceptionTranslationFilter@3b9d534a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@293d8ad]
+2021-03-23_13:58:30  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-23_13:58:30  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/coffeeOrdering'
+2021-03-23_13:58:30  INFO  c.cococafe.CoffeeOrderingApplication - Started CoffeeOrderingApplication in 6.681 seconds (JVM running for 7.479)
+2021-03-23_13:58:30  INFO  o.a.c.c.C.[.[.[/coffeeOrdering] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-23_13:58:30  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-03-23_13:58:30  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [Order created, status=PENDING]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - BeverageName:Americano, BeverageSize:REGULAR, Topping:Whipped Cream, Sandwich:Pinenut Toast, OrderCost:270.0
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [Order created, status=PENDING]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - BeverageName:Mocha, BeverageSize:REGULAR, Topping:Whipped Cream, Sandwich:None, OrderCost:145.0
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [Order created, status=PENDING]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - BeverageName:Cappuccino, BeverageSize:SMALL, Topping:None, Sandwich:Pinenut Toast, OrderCost:190.0
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [Order created, status=PENDING]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - BeverageName:Americano, BeverageSize:REGULAR, Topping:None, Sandwich:None, OrderCost:120.0
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [Order placed successfully, status=PLACED]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - BeverageName:Frappe, BeverageSize:SMALL, Topping:Whipped Cream, Sandwich:Pinenut Toast, OrderCost:250.0
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [Fetched all pending orders]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [Fetched all placed orders]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [Fetched all pending orders]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [OrderId:1 - Order Deleted Successfully]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [Fetched all pending orders]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [OrderId:2 placed successfully, status=PLACED]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - BeverageName:Mocha, BeverageSize:REGULAR, Topping:Whipped Cream, Sandwich:None, OrderCost:145.0
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [Fetched all pending orders]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [Fetched Order Detail : orderId 3]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - BeverageName: Cappuccino
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - BeverageSize: SMALL
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - Topping: None
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - Sandwich: Pinenut Toast
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [OrderId: 3 Updated Successfully]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - BeverageName:Mocha, BeverageSize:GRANDE, Topping:None, Sandwich:Pinenut Toast, OrderCost:220.0
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [Fetched all pending orders]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [OrderId:3 placed successfully, status=PLACED]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - BeverageName:Mocha, BeverageSize:GRANDE, Topping:None, Sandwich:Pinenut Toast, OrderCost:220.0
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [Fetched all pending orders]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [OrderId:4 - Order Deleted Successfully]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [Fetched all pending orders]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [Fetched all pending orders]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Beverage Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Sandwich Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [loaded Topping Names]
+2021-03-23_13:58:30  INFO  c.c.service.CoffeeOrderServiceImpl - [Fetched all placed orders]
+2021-03-23_13:58:30  INFO  c.c.service.AuthenticationService - User Logged Out
+2021-03-23_13:58:30  INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-23_13:58:30  INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23_13:58:30  INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-03-23_13:58:30  INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-03-23_14:01:26  INFO  c.cococafe.CoffeeOrderingApplication - Starting CoffeeOrderingApplication using Java 11.0.9 on LAPTOP-M0KEA9MF with PID 15844 (D:\Neha\Cognizant\CDE\Projects\CoffeeOrdering\target\classes started by HP in D:\Neha\Cognizant\CDE\Projects\CoffeeOrdering)
+2021-03-23_14:01:26  INFO  c.cococafe.CoffeeOrderingApplication - No active profile set, falling back to default profiles: default
+2021-03-23_14:01:26  INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-23_14:01:26  INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 4 JPA repository interfaces.
+2021-03-23_14:01:26  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-03-23_14:01:26  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-03-23_14:01:26  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-03-23_14:01:26  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-23_14:01:26  INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-23_14:01:26  INFO  o.a.c.c.C.[.[.[/coffeeOrdering] - Initializing Spring embedded WebApplicationContext
+2021-03-23_14:01:26  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 885 ms
+2021-03-23_14:01:26  INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2021-03-23_14:01:26  INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2021-03-23_14:01:26  INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:coffee_db'
+2021-03-23_14:01:26  INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23_14:01:26  INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-03-23_14:01:26  INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-23_14:01:26  INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4092a331, org.springframework.security.web.context.SecurityContextPersistenceFilter@363f9452, org.springframework.security.web.header.HeaderWriterFilter@1738e5e6, org.springframework.security.web.csrf.CsrfFilter@dc5d27b, org.springframework.security.web.authentication.logout.LogoutFilter@9b8fd75, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@577d2e11, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@50f53075, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@b2e858, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@594dfe30, org.springframework.security.web.session.SessionManagementFilter@154aca8a, org.springframework.security.web.access.ExceptionTranslationFilter@19dffe6e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1e506f3a]
+2021-03-23_14:01:26  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-03-23_14:01:26  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/coffeeOrdering'
+2021-03-23_14:01:26  INFO  c.cococafe.CoffeeOrderingApplication - Started CoffeeOrderingApplication in 1.794 seconds (JVM running for 178.671)
+2021-03-23_14:01:26  INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged

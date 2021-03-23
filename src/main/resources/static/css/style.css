@@ -1,0 +1,326 @@
+:root{
+    --brown:#c36c1b;
+    --white: #fff;
+    --Grayish-Blue: #95a9c6;
+    --Very-Light-Gray: #fafafa;
+    --Dark-Grayish-Violet: #837d87;
+    --Dark-grey: #2b282f;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    max-width: 100%;
+    font-family: 'Karla', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "header header"
+    "main main"
+    "left-main right-main";
+}
+
+.header {
+    grid-area: header;
+    color: var(--white);
+    
+}
+.main {
+    grid-area: main;
+  
+    background-image: url(../images/coffee_background2.jpg);
+    background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+    
+    color: var(--white);
+    min-height: 600px;
+    
+}
+.left-main {
+    grid-area: left-main;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/coffee_login_image.jpg);
+    background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	
+  	padding: 100px 90px;
+  	line-height: 0px;
+  	color: var(--brown);
+  	
+}
+
+.right-main {
+    grid-area: right-main;
+    min-height: 600px;
+    padding: 0px 90px;
+    
+}
+
+.left {
+	text-align:left;
+}
+.right {
+	text-align:right;
+}
+.main h1 {
+	font-size: 70px;
+	padding: 200px 100px;
+	text-align: center;
+	/* font-family: 'Potta One', cursive; */
+	font-weight: bolder;
+}
+.left-main h3 {
+	font-size: 60px;
+	font-weight: bolder;
+}
+.white-line {
+	border-top: 1px solid white;
+}
+.navbar {
+    background-color: var(--brown);
+}
+
+
+.navbar-light .navbar-brand {
+    color: var(--white);
+}
+
+.close {
+    display: none;
+}
+img 
+{ 
+    max-width:100%;
+    height: 80%;
+}
+/* .dissapear {
+    display : none;
+}
+.appear {
+    display : inline-block;
+} */
+
+
+.login-section h1 {
+    color: var(--brown);
+    padding-top: 50px;
+    text-align: center;
+}
+.login-section {
+    min-height: 450px;
+}
+.login-section button {
+	margin-top: 60px;
+}
+.login-section form input {
+    border: var(--brown) 1px solid;
+}
+.login-section form input::placeholder {
+    color: var(--brown);
+    opacity: 1; /* Firefox */
+}
+  
+.login-section form input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: var(--brown);
+}
+  
+.login-section form input::-ms-input-placeholder { /* Microsoft Edge */
+   color: var(--brown);
+}
+
+.login-section a { 
+    color: var(--brown);
+}
+.btn-login {
+    background-color: var(--brown);
+    color: var(--white);
+    width: 49%;
+    float: left;
+    margin: 2px;
+}
+.btn-login:hover {
+    border: 1px solid var(--brown);
+    background-color: var(--white);
+    color: var(--brown);
+}
+.btn-submit {
+    background-color: var(--brown);
+    color: var(--white);
+    width: 30%;
+    margin-left: 60px;
+}
+.btn-save {
+    background-color: var(--brown);
+    color: var(--white);
+    width: 30%;
+    margin-left: 60px;
+}
+
+.btn-save:hover, .btn-submit:hover {
+    border: 1px solid var(--brown);
+    background-color: var(--white);
+    color: var(--brown);
+}
+.line {
+    border-top: 1px solid var(--brown);
+}
+
+.login-section p {
+        
+    padding-top: 10px;
+}
+
+.section {
+	min-height: 750px;
+}
+.section h1,.section h2, .section h2, .section h4, .section h5, .section h6 {
+    color: var(--brown);
+    
+}
+.section h1,.section h2 {
+	padding-top: 115px;
+    padding-bottom: 20px
+}
+.section h1{
+	text-align: center;
+}
+.section button {
+    margin-top: 50px;
+}
+.section form input {
+    border: var(--brown) 1px solid;
+}
+.section form input::placeholder {
+    color: var(--brown);
+    opacity: 1;
+}
+  
+.section form input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: var(--brown);
+}
+
+.section form input::-ms-input-placeholder { /* Microsoft Edge */
+   color: var(--brown);
+}
+.error {
+	color: red;
+	font-weight: bolder;
+}
+
+.success {
+	color: green;
+	font-weight: bolder;
+}
+
+.form-container{
+	padding-left: 220px;
+	padding-right: 220px;
+}
+
+.form-select {
+    border: var(--brown) 1px solid;
+    color: var(--brown);
+}
+
+.icon {
+	width: 20px;
+    height: 65px;
+    padding-bottom: 50px
+}
+
+.error-container {
+	min-height: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+	padding: 150px 50px;
+}
+/*  desktop only */
+@media screen and (min-width: 993px) {
+
+    .login-section h1 {
+      
+        padding-top: 100px;
+    }
+    .navbar {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+   
+  
+}
+
+
+/* non desktop only */
+@media screen and (max-width: 992px) {
+
+    #desktopnav {
+        display: none;
+    }
+    .main-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "header header"
+        "main main"
+        "left-main left-main"
+        "right-main right-main"
+        "about about"
+        "contact contact"
+        "footer footer";
+    }
+	
+
+	.form-container{
+		padding-left: 150px;
+		padding-right: 150px;
+	}
+	
+    .login-section p {
+        
+        padding-bottom: 50px;
+    }
+   
+    
+    .section {
+        grid-area: register;
+        height: 600px;
+    }
+    
+    .section h1 {
+        padding-bottom: 50px;
+    }
+    
+}
+
+/* mobile only */
+@media screen and (max-width: 400px) {
+
+    #desktopnav {
+        display: none;
+    }
+    .navbar {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+	.form-container{
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+}
+
+.btn-danger:hover {
+	cursor: wait;
+	border : 1px red solid;
+	color: red;
+}
